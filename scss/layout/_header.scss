@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+    background-size: cover;
+}
+.banner img{
+    display: flex;
+    flex-flow: column nowrap;
+    object-fit: contain;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.redes-sociales{
+    display: flex;
+    flex-flow: column nowrap;
+    position: absolute;
+    list-style: none;
+    top: 0;
+    padding: 15px 20px 20px 20px;
+    left: 90%;
+    gap: 10px;
+}
+.redes-sociales img{
+    width: 60px;
+}

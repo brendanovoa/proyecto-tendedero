@@ -1,0 +1,18 @@
+.contenido-contacto{
+    background-color: $background-principal;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+    p{
+        padding: 0px 30px 10px 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-weight: 100;
+        font-size: 18px;
+        text-align: justify;
+    }
+    div{
+        padding: 10px 30px 10px 30px;
+    }
+}
