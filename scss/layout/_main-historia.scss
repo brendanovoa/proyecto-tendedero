@@ -2,9 +2,9 @@
     background-color: $background-principal;
     h1{
         padding: 30px;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 700;
-        font-size: 24px;
+        font-family: $fuente-principal;
+        font-weight: $peso-titulos;
+        font-size: $size-titulo-desktop;
     }
     h2{
         @extend h1
@@ -14,9 +14,9 @@
     }
     p{
         padding: 0px 30px 30px 30px;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 100;
-        font-size: 18px;
+        font-family: $fuente-principal;
+        font-weight: $peso-textos;
+        font-size: $size-texto-desktop;
         text-align: justify;
     }
     img{

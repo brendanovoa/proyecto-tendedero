@@ -6,6 +6,9 @@
             a{
                 font-size: 12px;
             }
+            a:hover{
+                font-size: 14px;
+            }
         }
     }
     .redes-sociales{
@@ -29,6 +32,8 @@
     .video-inicio{
         max-width: 90%;
         padding: 0px 20px 20px 20px;
+        width: 100%;
+        height: 100%;
     }
     .introduccion-tendederos{
         h1{

@@ -7,15 +7,15 @@
     flex-flow: column nowrap;
     h1{
         padding: 30px;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 700;
-        font-size: 24px;
+        font-family: $fuente-principal;
+        font-weight: $peso-titulos;
+        font-size: $size-titulo-desktop;
     }
     p{
         padding: 0px 30px 30px 30px;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 100;
-        font-size: 18px;
+        font-family: $fuente-principal;
+        font-weight: $peso-textos;
+        font-size: $size-texto-desktop;
         text-align: justify;
     }
 }
@@ -23,6 +23,10 @@
 .video-inicio{
     position: relative;
     align-self: center;
-    max-width: 100%;
+    width: 700px;
+    height: 455px;
     padding: 0px 30px 30px 30px;
 }
+
+// width: 560px;
+// height: 315px;

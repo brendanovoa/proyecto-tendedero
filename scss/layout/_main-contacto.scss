@@ -7,9 +7,9 @@
     flex-flow: column nowrap;
     p{
         padding: 0px 30px 10px 30px;
-        font-family: 'Roboto Condensed', sans-serif;
-        font-weight: 100;
-        font-size: 18px;
+        font-family: $fuente-principal;
+        font-weight: $peso-textos;
+        font-size: $size-texto-desktop;
         text-align: justify;
     }
     div{

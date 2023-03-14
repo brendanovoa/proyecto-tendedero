@@ -1,4 +1,13 @@
 $background-principal: rgb(251, 215, 221);
 $color-principal: rgb(226, 27, 156);
-$fuente-titulos: 'Roboto Condensed', sans-serif, font-weight 700, font-size 24px;
-$fuente-textos: 'Roboto Condensed', sans-serif, justify, font-weight 100, font-size 18px;
+
+$fuente-principal: 'Roboto Condensed', sans-serif; 
+$peso-titulos: font-weight 700;
+$peso-textos: font-weight 100;
+
+$size-titulo-desktop: font-size 24px;
+$size-texto-desktop: font-size 18px;
+$size-titulo-tablet: font-size 20px;
+$size-texto-tablet: font-size 16px;
+$size-titulo-mobil: font-size 18px;
+$size-texto-mobil: font-size 12px;
