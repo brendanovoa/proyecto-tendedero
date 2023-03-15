@@ -60,7 +60,7 @@
   background-repeat: no-repeat;
   display: flex;
   flex-flow: column nowrap; }
-  .contenido-inicio h1, .contenido-inicio .contenido-historia h2, .contenido-historia .contenido-inicio h2, .contenido-inicio .contenido-historia h3, .contenido-historia .contenido-inicio h3 {
+  .contenido-inicio h1, .contenido-inicio .textos-historia h2, .textos-historia .contenido-inicio h2 {
     padding: 30px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: font-weight 700;
@@ -80,25 +80,42 @@
   padding: 0px 30px 30px 30px; }
 
 .contenido-historia {
-  background-color: #fbd7dd; }
-  .contenido-historia h1, .contenido-historia h2, .contenido-historia h3 {
-    padding: 30px;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: font-weight 700;
-    font-size: font-size 24px; }
-  .contenido-historia p {
-    padding: 0px 30px 30px 30px;
-    font-family: "Roboto Condensed", sans-serif;
-    font-weight: font-weight 100;
-    font-size: font-size 18px;
-    text-align: justify; }
-  .contenido-historia img {
-    padding: 30px;
-    width: 90%; }
+  background-color: #fbd7dd;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-flow: column nowrap; }
+
+.textos-historia h1, .textos-historia h2 {
+  padding: 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: font-weight 700;
+  font-size: font-size 24px; }
+
+.textos-historia p {
+  padding: 0px 30px 30px 30px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: font-weight 100;
+  font-size: font-size 18px;
+  text-align: justify; }
+
+.carousel {
+  display: flex;
+  align-self: center;
+  max-width: 600px;
+  height: 450px;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory; }
+  .carousel img {
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center; }
 
 .introduccion-tendederos {
   background-color: #fbd7dd; }
-  .introduccion-tendederos h1, .introduccion-tendederos .contenido-historia h2, .contenido-historia .introduccion-tendederos h2, .introduccion-tendederos .contenido-historia h3, .contenido-historia .introduccion-tendederos h3 {
+  .introduccion-tendederos h1, .introduccion-tendederos .textos-historia h2, .textos-historia .introduccion-tendederos h2 {
     padding: 30px;
     font-family: "Roboto Condensed", sans-serif;
     font-weight: font-weight 700;
@@ -258,7 +275,7 @@
       width: 20px; }
   .contenido-inicio {
     text-align: center; }
-    .contenido-inicio h1, .contenido-inicio .contenido-historia h2, .contenido-historia .contenido-inicio h2, .contenido-inicio .contenido-historia h3, .contenido-historia .contenido-inicio h3 {
+    .contenido-inicio h1, .contenido-inicio .textos-historia h2, .textos-historia .contenido-inicio h2 {
       padding: 20px;
       font-size: 20px; }
     .contenido-inicio p {
@@ -269,7 +286,7 @@
     padding: 0px 20px 20px 20px;
     width: 100%;
     height: 100%; }
-  .introduccion-tendederos h1, .introduccion-tendederos .contenido-historia h2, .contenido-historia .introduccion-tendederos h2, .introduccion-tendederos .contenido-historia h3, .contenido-historia .introduccion-tendederos h3 {
+  .introduccion-tendederos h1, .introduccion-tendederos .textos-historia h2, .textos-historia .introduccion-tendederos h2 {
     padding: 20px;
     font-size: 20px;
     width: 60%; }

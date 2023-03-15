@@ -1,5 +1,13 @@
 .contenido-historia{
     background-color: $background-principal;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.textos-historia{
     h1{
         padding: 30px;
         font-family: $fuente-principal;
@@ -9,9 +17,6 @@
     h2{
         @extend h1
     }
-    h3{
-        @extend h1
-    }
     p{
         padding: 0px 30px 30px 30px;
         font-family: $fuente-principal;
@@ -19,10 +24,19 @@
         font-size: $size-texto-desktop;
         text-align: justify;
     }
-    img{
-        
-        padding: 30px;
-        width: 90%;
-    }
 }
 
+.carousel{
+    display: flex;
+    align-self: center;
+    max-width: 600px;
+    height: 450px;
+    width: 100%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    img{
+        width: 100%;
+        object-fit: cover;
+        scroll-snap-align: center;
+    }
+}
