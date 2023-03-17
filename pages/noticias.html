@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -20,66 +21,74 @@
         <div class="banner">
             <img src="../assets/Banner blog Tendedero_vf.jpg" alt="Banner El Tendedero">
         </div>
+
         <div class="redes-sociales">
             <li><a href="https://www.facebook.com/groups/El.Tendedero.Monica.Mayer"><img src="../assets/redes/facebook.png" alt="https://www.facebook.com/groups/El.Tendedero.Monica.Mayer"></a></li>
             <li><a href="https://www.instagram.com/pintomiraya/?hl=es"><img src="../assets/redes/instagram.png" alt="https://www.instagram.com/pintomiraya/?hl=es"></a></li>
             <li><a href="https://twitter.com/Pintomiraya"><img src="../assets/redes/twitter.png" alt="https://twitter.com/Pintomiraya"></a></li>
             <li><a href="https://www.youtube.com/@monicamayeryvictorlerma9938"><img src="../assets/redes/youtube.png" alt="https://www.youtube.com/@monicamayeryvictorlerma9938"></a></li>
         </div>
-        <nav>
-            <ul class="navbar">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/historia.html">Historia</a></li>
-                <li><a href="../pages/tendederos.html">Tendederos</a></li>
-                <li><a href="../pages/noticias.html">Noticias</a></li>
-                <li><a href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+
+        <div class="nav-wraper">
+            <nav>
+                <input type="checkbox" name="" id="toggle">
+                <label for="toggle"><i class="material-icons">menu</i></label>
+                <div class="menu">
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../pages/historia.html">Historia</a></li>
+                        <li><a href="../pages/tendederos.html">Tendederos</a></li>
+                        <li><a href="../pages/noticias.html">Noticias</a></li>
+                        <li><a href="../pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="seccion-noticias">
             <div class="noticias">
-                <p class="titulo-noticia">Título noticia</p>
-                <p class="fecha">Fecha noticia</p>
-                <img class="fotos-noticias" src="../assets/noticias/make-it-safe.png" alt="Noticia Tendedero">
-                <p class="resumen">Resúmen noticia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, corporis incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a class="link" href="">Leer más...</a>
+                <p class="titulo-noticia">Mónica Mayer activa “El Tendedero”</p>
+                <p class="fecha">11 marzo 2023</p>
+                <img class="fotos-noticias" src="../assets/noticias/noticia-cabanas.png" alt="Noticia Tendedero Museo Cabañas">
+                <p class="resumen">Hoy sábado 11 de marzo, el Museo Cabañas recibe la exposición “40 años de Polvo de Gallina Negra. Arte feminista en México”, que arrancará con una conferencia de Mónica Mayer, pionera del arte feminista en América Latina; la muestra es resultado de la curaduría de las investigadoras del arte, Julia Antivilo y María Laura Rosa.</p>
+                <a class="link" href="https://www.informador.mx/cultura/Exposiciones-Monica-Mayer-activa-El-Tendedero-20230311-0002.html">Leer más...</a>
             </div>
             <div class="noticias">
-                <p class="titulo-noticia">Título noticia</p>
-                <p class="fecha">Fecha noticia</p>
-                <img class="fotos-noticias" src="../assets/noticias/make-it-safe.png" alt="Noticia Tendedero">
-                <p class="resumen">Resúmen noticia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, corporis incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a class="link" href="">Leer más...</a>
+                <p class="titulo-noticia">Tendedero en el Museo Amparo inaugura exposición</p>
+                <p class="fecha">20 julio 2022</p>
+                <img class="fotos-noticias" src="../assets/noticias/noticia-amparo.jpeg" alt="Noticia Tendedero Museo Amparo">
+                <p class="resumen">Tendedero en la exposición Polvo de Gallina Negra: Mal de ojo y otras recetas feministas en el Museo Amparo. El Museo Amparo presenta la exposición organizada por el Centro Nacional de Arte Contemporáneo Cerrillos, en colaboración con la Cátedra Extraordinaria Rosario Castellanos de Arte y Género.</p>
+                <a class="link" href="https://museoamparo.com/exposiciones/pieza/4030/tendedero">Leer más...</a>
             </div>
             <div class="noticias">
-                <p class="titulo-noticia">Título noticia</p>
-                <p class="fecha">Fecha noticia</p>
-                <img class="fotos-noticias" src="../assets/noticias/make-it-safe.png" alt="Noticia Tendedero">
-                <p class="resumen">Resúmen noticia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, corporis incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a class="link" href="">Leer más...</a>
+                <p class="titulo-noticia">La Chamuca | Mónica Mayer y El tendedero @ElChamucoTV</p>
+                <p class="fecha">22 octubre 2022</p>
+                <img class="fotos-noticias" src="../assets/noticias/noticia-chamuca.jpeg" alt="Entrevista a Mónica Mayer con La Chamuca">
+                <p class="resumen">La chamuca usa este espacio para introducir a la gran artista mexicana Mónica Mayer, quien es considerada la pionera del performance y la gráfica digital en México, además es reconocida internacionalmente como la precursora y promotora del arte feminista. Entre muchos otros proyectos, Mónica presenta El Tendedero. </p>
+                <a class="link" href="https://youtu.be/CASAqA-JZrQ">Leer más...</a>
             </div>
             <div class="noticias">
-                <p class="titulo-noticia">Título noticia</p>
-                <p class="fecha">Fecha noticia</p>
-                <img class="fotos-noticias" src="../assets/noticias/make-it-safe.png" alt="Noticia Tendedero">
-                <p class="resumen">Resúmen noticia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, corporis incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a class="link" href="">Leer más...</a>
+                <p class="titulo-noticia">Luchadoras, mujeres en la colección del MUAC</p>
+                <p class="fecha">24 Febrero 2023</p>
+                <img class="fotos-noticias" src="../assets/noticias/noticia-luchadoras-2.jpeg" alt="Noticia Tendedero Fundación Casa de México en España">
+                <p class="resumen">Del 24 de febrero al 21 de mayo de 2023 se presenta en la Fundación Casa de México en España la exposición Luchadoras: mujeres en la colección del MUAC, que incluye la obra de 31 artistas de generaciones y geografías distintas que reflexionan sobre la complejidad de habitar el cuerpo femenino y visibilizan la violencia.</p>
+                <a class="link" href="https://www.casademexico.es/.../luchadoras-mujeres-en-la.../ ">Leer más...</a>
             </div>
             <div class="noticias">
-                <p class="titulo-noticia">Título noticia</p>
-                <p class="fecha">Fecha noticia</p>
-                <img class="fotos-noticias" src="../assets/noticias/make-it-safe.png" alt="Noticia Tendedero">
-                <p class="resumen">Resúmen noticia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, corporis incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a class="link" href="">Leer más...</a>
+                <p class="titulo-noticia">Mónica Mayer: Aprender a tumbar paredes</p>
+                <p class="fecha">9 mayo 2022</p>
+                <img class="fotos-noticias" src="../assets/noticias/noticia-escuela.jpg" alt="Entrevista La Escuela">
+                <p class="resumen">Jesús Torrivilla conversa con Mayer sobre sus experiencias junto a Judy Chicago en el Woman’s Building, del acompañamiento de profesores como Juana Gutiérrez y Armando Torres Michúa y del arte como una forma de habitar el mundo: un ‘martillo’ para tumbar paredes y aprender a expresar sus verdades. Visita laescuela.art.</p>
+                <a class="link" href="https://youtu.be/G30qm89H3Pw">Leer más...</a>
             </div>
             <div class="noticias">
-                <p class="titulo-noticia">Título noticia</p>
-                <p class="fecha">Fecha noticia</p>
-                <img class="fotos-noticias" src="../assets/noticias/make-it-safe.png" alt="Noticia Tendedero">
-                <p class="resumen">Resúmen noticia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, corporis incidunt? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a class="link" href="">Leer más...</a>
+                <p class="titulo-noticia">La humanidad se ha perdido de la creatividad de las mujeres</p>
+                <p class="fecha">10 Febrero 2022</p>
+                <img class="fotos-noticias" src="../assets/noticias/noticia-unam.jpeg" alt="Noticia Tendedero en La Gaceta de la UNAM">
+                <p class="resumen">Con un performance, como lo ha hecho a lo largo de sus más de 40 años de labor, la artista Mónica Mayer puso en marcha las actividades del primer Diplomado Internacional de Arte y Género organizado por la Cátedra Extraordinaria Rosario Castellanos de Arte y Género de Cultura UNAM y la Facultad de Artes y Diseño (FAD).</p>
+                <a class="link" href="https://www.gaceta.unam.mx/la-humanidad-se-ha-perdido-de-la-creatividad-de-las-mujeres-monica-mayer/">Leer más...</a>
             </div>
         </section>
     </main>

@@ -28,16 +28,14 @@
 
 .titulo-noticia{
     padding: 20px 20px 0px 20px;
-    font-family: $fuente-principal;
-    font-weight: $peso-titulos;
+    @include title;
     font-size: 20px;
     text-align: left;
 }
 
 .fecha{
-    font-family: $fuente-principal;
+    @include texto;
     color: rgb(108, 106, 107);
-    font-weight: $peso-textos;
     font-size: 15px;
     text-align: left;
     margin-left: 20px;
@@ -45,16 +43,14 @@
 
 .resumen{
     padding: 0px 20px 0px 20px;
-    font-family: $fuente-principal;
-    font-weight: $peso-textos;
+    @include texto;
     font-size: 16px;
     text-align: justify;
 }
 
 .link{
-    font-family: $fuente-principal;
+    @include texto;
     color: $color-principal;
-    font-weight: $peso-textos;
     font-size: 15px;
     text-align: right;
     margin-right: 20px;

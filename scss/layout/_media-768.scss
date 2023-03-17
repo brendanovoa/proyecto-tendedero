@@ -1,16 +1,45 @@
 @media (max-width: 768px){
-    .navbar{
-        li{
-            padding: 10px 40px 10px 40px;
-            a{
-            font-size: 16px;
+    .nav-wraper{
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            align-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0px;
+            .menu{
+                width: 100%;
+                height: 0;
+                overflow: hidden;
             }
-            a:hover{
-            font-size: 18px;
+            ul{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 0;
+                flex-direction: column;
+                align-items: center;
+                padding: 0.5rem 0;
+                li {
+                    padding: 10px 0px;
+                    a{
+                        font-size: 16px;
+                    }
+                    a:hover{
+                        font-size: 18px;
+                    }
+                }
+            }
+            label{
+                display: inline-flex;
+                color: white;
+                cursor: pointer;
+            }
+            #toggle:checked ~ .menu{
+                height: 100%;
             }
         }
     }
-    
+
     .redes-sociales{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -20,15 +49,9 @@
             width: 50px;
         }
     }
-    .seccion-tendederos{
-        gap: 20px;
+
+    .contenido-contacto{
+        height: 700px;
     }
-    .card-tendedero{
-        img{
-            width: 160px;
-        }
-    }
-    .contenido-footer{
-        font-size: 12px;
-    }
+
 }

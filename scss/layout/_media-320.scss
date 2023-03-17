@@ -1,61 +1,29 @@
 @media (max-width: 320px){
-    .navbar{
-        flex-direction: column;
-        li{
-            align-items: center;
-            a{
-                font-size: 12px;
-            }
-            a:hover{
-                font-size: 14px;
-            }
-        }
-    }
+    
     .redes-sociales{
-        column-gap: 5px;
-        left: 55%;
         img{
-            width: 20px;
+            width: 25px;
         }
     }
-    .contenido-inicio{
-        text-align: center;
-        h1{
-            padding: 20px;
-            font-size: 20px;
-        }
-        p{
-            padding: 0px 20px 20px 20px;
-            font-size: 12px;
-        }
+    
+    .carousel{
+        max-width: 250px;
+        height: 175px;
     }
-    .video-inicio{
-        max-width: 90%;
-        padding: 0px 20px 20px 20px;
-        width: 100%;
-        height: 100%;
+    .imagen-actualidad{
+        img{
+            max-width: 250px;
+        }
+        padding: 0px 30px 30px 30px;
     }
+    
     .introduccion-tendederos{
         h1{
-            padding: 20px;
-            font-size: 20px;
-            width: 60%;
-        }
-        p{
-            padding: 0px 20px 20px 20px;
-            font-size: 12px;
+            padding: 20px 50px;
         }
     }
-    .contenido-footer{
-        display: flex;
-        flex-direction: column;
-        font-size: 10px;
-        padding: 10px;
-        text-align: center;
-        justify-content: center;
-        
-        div{
-            text-align: right;
-        }
+
+    .contenido-contacto{
+        height: 550px;
     }
 }

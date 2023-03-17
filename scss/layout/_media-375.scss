@@ -1,0 +1,18 @@
+@media (max-width: 375px){
+    
+    .redes-sociales{
+        column-gap: 4px;
+        left: 50%;
+    }
+
+    .carousel{
+        max-width: 280px;
+        height: 205px;
+    }
+    .imagen-actualidad{
+        img{
+            max-width: 280px;
+        }
+        padding: 0px 30px 30px 30px;
+    }
+}

@@ -1,24 +1,57 @@
-.navbar{
+.nav-wraper{
     background-color: $color-principal;
     width: 100%;
     background-size: cover;
-    display: flex;
-    li{
-        list-style: none;
-        width: 100%;
-        padding: 10px 80px 10px 80px;
+    margin: 0 auto;
+    nav{
         display: flex;
-        flex-flow: column nowrap;
         justify-content: space-evenly;
-        a{
-            text-decoration: none;
-            color: white;
-            font-family: $fuente-principal;
-            font-weight: $peso-textos;
-            font-size: 20px;
+        align-content: center;
+        ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4rem;
+            li {
+                padding: 10px 50px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    @include texto;
+                    font-size: 20px;
+                }
+                a:hover{
+                    font-size: 24px;
+                }
+            }
         }
-        a:hover{
-            font-size: 24px;
+        #toggle, label{
+            display: none;
         }
     }
 }
+
+// .navbar{
+//     background-color: red;
+//     width: 100%;
+//     background-size: cover;
+//     display: flex;
+//     li{
+//         list-style: none;
+//         width: 100%;
+//         padding: 10px 80px 10px 80px;
+//         display: flex;
+//         flex-flow: column wrap;
+//         justify-content: space-evenly;
+//         a{
+//             text-decoration: none;
+//             color: white;
+//             font-family: $fuente-principal;
+//             font-weight: $peso-textos;
+//             font-size: 20px;
+//         }
+//         a:hover{
+//             font-size: 24px;
+//         }
+//     }
+// }

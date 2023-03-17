@@ -2,15 +2,13 @@
     background-color: $background-principal;
     h1{
         padding: 30px;
-        font-family: $fuente-principal;
-        font-weight: $peso-titulos;
+        @include title;
         font-size: $size-titulo-desktop;
         
     }
     p{
         padding: 0px 30px 30px 30px;
-        font-family: $fuente-principal;
-        font-weight: $peso-textos;
+        @include texto;
         font-size: $size-texto-desktop;
         text-align: justify;
     }
@@ -37,9 +35,8 @@
         border-radius: 50%;
     }
     p{
-        font-family: $fuente-principal;
+        @include texto;
         color: $color-principal;
-        font-weight: $peso-textos;
         font-size: $size-texto-desktop;
         text-align: center;
     }
